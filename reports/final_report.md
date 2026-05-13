@@ -84,7 +84,7 @@ pytest -q tests/test_redis_cache.py::test_shared_state_across_instances
 ```
 
 ### Redis CLI output
-
+![alt text](image.png)
 ```bash
 docker compose exec redis redis-cli KEYS "rl:cache:*"
 1) "rl:cache:8baa2cfa11fa"
